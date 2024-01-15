@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.rock": "Rock",
   "item.tutorialmod.meatball": "Meatball",
-
+  "block.tutorialmod.meatball_block": "Meatball Block",
   "creativetab.curiosities": "Curiosities"
+
 }

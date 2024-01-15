@@ -1,6 +1,7 @@
 package net.mikobass.tutorialmod.item;
 
 import net.mikobass.tutorialmod.TutorialMod;
+import net.mikobass.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.MEATBALL.get());
                         pOutput.accept(ModItems.ROCK.get());
+
+                        pOutput.accept(ModBlocks.MEATBALL_BLOCK.get());
                     })
                     .build());
     public static void  register(IEventBus eventBus){
