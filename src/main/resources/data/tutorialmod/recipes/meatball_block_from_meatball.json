@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:meatball"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:meatball_block"
+  }
+}

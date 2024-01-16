@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "meatball",
+  "ingredient": {
+    "item": "tutorialmod:meatball"
+  },
+  "result": "minecraft:charcoal"
+}
