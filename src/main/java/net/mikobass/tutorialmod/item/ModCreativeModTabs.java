@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROCK.get());
 
                         pOutput.accept(ModBlocks.MEATBALL_BLOCK.get());
+                        pOutput.accept(ModBlocks.MEATBALL_ORE.get());
                     })
                     .build());
     public static void  register(IEventBus eventBus){
