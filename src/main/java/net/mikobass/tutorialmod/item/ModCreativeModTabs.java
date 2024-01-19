@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.MEATBALL.get());
                         pOutput.accept(ModItems.ROCK.get());
+                        pOutput.accept(ModItems.ORE_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.MEATBALL_BLOCK.get());
                         pOutput.accept(ModBlocks.MEATBALL_ORE.get());
