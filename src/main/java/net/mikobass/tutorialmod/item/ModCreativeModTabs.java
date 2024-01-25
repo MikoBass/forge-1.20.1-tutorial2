@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.MEATBALL_BLOCK.get());
                         pOutput.accept(ModBlocks.MEATBALL_ORE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
     public static void  register(IEventBus eventBus){
