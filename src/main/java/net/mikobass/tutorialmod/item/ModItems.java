@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> MEATBALL = ITEMS.register("meatball",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SOAP = ITEMS.register("soap",
+            () -> new Item(new Item.Properties().food(ModFoods.SOAP)));
+
 
     public static final RegistryObject<Item> ORE_DETECTOR = ITEMS.register("ore_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(20)));
